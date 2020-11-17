@@ -2,7 +2,7 @@ import math
 import pygame
 from queue import PriorityQueue
 
-WIDTH = 600
+WIDTH = 700
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("A* Pathfinding")
 
@@ -195,7 +195,7 @@ def get_clicked(pos, rows, width):
 
 
 def main(win, width):
-    ROWS = 60
+    ROWS = 50
     grid = make_grid(ROWS, width)
 
     start = None
